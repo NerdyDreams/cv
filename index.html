@@ -1,255 +1,121 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/6b78d14714.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
 
-<head>
-  <meta charset="utf-8">
-  <title>Pere Isaac Afezu</title>
-  
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="icon" href="faviconn.ico">
-  <script src="https://kit.fontawesome.com/6b78d14714.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+    <section id="home">
+        <div class="main"> 
+            <h1 class="heading">I AM <br> PERE AFEZU</h1>
+            <a href="#contact">
+              Hire me
+            </a>
+          <!-- <button class="btn">
+              Hire Me
+            </button> -->
+    </section>
 
-<body>
-<!-- <div class="top_container">
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div>
-  <div class="snowflake"></div> -->
-
-<div class="top_container">
-<div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
-
-    <img class=" top-cloud pot slider-img" src="images/cloud.png"/>
-    <h1>I'm Pere</h1>
-    <h2><p>a programmer</p></h2>
-    <img class="bottom-cloud pot2 slider-img2" src="images/cloud.png" alt="cloud-image">
-    <img src="images/mountain.png" alt="mountain-image">
-    </div>
-
-<!-- <div class="container">
-<div class="row"> -->
-  
-    <div class="middle-container">
-      <div class="profile">
-        <img class="img" src="images/profile.png" alt="profile-image" style="object-fit:cover;width:200px;height:200px;">
-        <h2>Hello</h2>
-        <p class="intro">Hi. I am a full stack developer I am very research driven and have 
-          passion for data analysis and Design. I put in-depth intuition into design and 
-          User Experience (UX).I have the ability to learn fast and adapt very quickly to challenging scenarios and situations. I practice 
-          Satyagraha which is Sanskrit for "Holding firmly to truth". Yes.so, I am a 
-          Satyagrahi. I am fascinated by deadlines and produce optimum 
-          result before deadlines. I have considerable amount of years of IT work experience ranging from self-trainings, institutions and 
-          companies.I love Tea and Coffee</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="code-img" src="images/coding.png" alt="coding-image">
-          <h3>FullStack Web Development</h3>
-          <p>I am a self tutored programmer. Over time i have gained a wealth of experience designing and developing frontend and backend web applications</p>
+    <section id="about">
+        <h1 class="heading">
+            ABOUT ME
+        </h1>
+        <div id="pic">
+            <img src="img4.jpg" alt="">
+            <div id="intro">
+            <h2>PERE AFEZU</h2>
+            <p>Hi. I am a full stack developer I am very research driven and have 
+              passion for data analysis and Design. I put in-depth intuition into design and User Experience (UX).I have the ability to learn fast and adapt very quickly to challenging scenarios and situations. I practice 
+              Satyagraha which is Sanskrit for "Holding firmly to truth". Yes.so, I am a Satyagrahi. I am fascinated by deadlines and produce optimum 
+              result before deadlines. I have considerable amount of years of IT work experience ranging from self-trainings, institutions and 
+              companies.I love Tea and Coffee</p>
         </div>
-        <div class="skill-row">
-          <img class="data-img" src="images/data-science.png" alt="data-science-picture">
-          <h3>Data Science</h3>
-          <p>I perform simple data analysis with Pandas, NumPy, Matplotlib, Seaborn among others.</p>
         </div>
-      </div>
-      <hr>
+    </section>
 
-
-      <div class="skills">
-      <h2>My works.</h2>
-      <div id="carouselExampleCaptions" class="carousel slide slider" data-ride="carousel" data-interval="false">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card mb-3" style="max-width: fit-content;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img style="width: 150%; height: 100%;" src="images/Redfleek.PNG" alt="...">
-                </div>
-                <div style="padding-left: 15%;" class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">RedFleek</h5>
-                    <p class="card-text">A movie Rating website and blog
-                      <p><a style="background:orangered;" class="glow-on-hover" href="https://quizzical-yonath-afb2c2.netlify.app/" target="_blank"  role="button" aria-pressed="true">Visit Website</a></p>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3" style="max-width: fit-content;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img style="width: 150%; height: 100%;" src="images/ComputerClinic.PNG" alt="...">
-                </div>
-                <div style="padding-left: 15%;" class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Computer Clinic</h5>
-                    <p class="card-text">A web app for virtual computer repair and diagnostics with a blog for computer geeks</p>
-                    <a style="background:skyblue;" class="glow-on-hover" href="https://vast-reaches-60395.herokuapp.com/" target="_blank">Visit website</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3" style="max-width: fit-content;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img style="width: 150%; height: 100%;" src="images/Globaltech.PNG" alt="...">
-                </div>
-                <div style="padding-left: 15%;" class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">GlobalTech System Hubs</h5>
-                    <p class="card-text">A Website for a top notch computer institute</p>
-                    <a style="background:green;" class="glow-on-hover" href="https://globaltechng.com/" target="_blank">Visit website</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3" style="max-width: fit-content;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img style="width: 150%; height: 100%;" src="images/GThomesPNG.PNG" alt="...">
-                </div>
-                <div style="padding-left: 15%;" class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">GT Homes</h5>
-                    <p class="card-text">An online marketplace for property acquisition</p>
-                    <a style="background:darkgreen;" class="glow-on-hover" href="https://gthomes.com.ng" target="_blank">Visit website</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card mb-3" style="max-width: fit-content;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img style="width: 150%; height: 100%;" src="images/learnhubs.PNG" alt="...">
-                </div>
-                <div style="padding-left: 15%;" class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">i Learn Hubs</h5>
-                    <p class="card-text">An open online course provider aimed at professional adults and students</p>
-                    <a style="background:lightgreen;" class="glow-on-hover" href="https://ilearnhubs.com" target="_blank">Visit website</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section id="portfolio">
+        <h1 class="heading">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="Portfolio/ComputerClinic.PNG" alt="" >
+            <img src="Portfolio/Globaltech.PNG" alt="" >
+            <img src="Portfolio/GThomesPNG.PNG" alt="" >
+            <img src="Portfolio/learnhubs.PNG" alt="" >
+            <img src="Portfolio/Redfleek.PNG" alt="" >
+            <img src="Portfolio/ostentacious.JPG" alt="" >
         </div>
-      </div>
-      <button class="btn btn-light" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-        Previous
-      </button>
-      <button class="btn btn-light" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-        Next
-      </button>
-    </div>
+    </section>
 
-    <hr>
+    <section id="services">
+        <h1 class="heading">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Services/coding.png" alt="">
+                <h1 class="heading">Website Development</h1>
+                <p>I build innovative and creative web solutions with modern web technique. i throw in a little buisness ingenuity in web design and development for my clients. A critical thinker turning business ideas into high-end digital products. </p>
+            </div>
+            <div class="box">
+                <img src="Services/software.png" alt="">
+                <h1 class="heading">Software<br> Development</h1>
+                <p>Building custom software solutions tailored to your buisness.<br>
+                  "If we want users to like our software, we should design it to behave like a likeable person.Usability's strength is in identifying problems, while design's strength is in identifying solutions"<br>Alan Cooper</p>
+            </div>
+            <div class="box">
+                <img src="Services/data-science.png" alt="">
+                <h1 class="heading">Data Analytics</h1>
+                <p>
+                  Descriptive, Diagnostic and Predictive data analytics using creative insights garnared from experience in data analytic solutions and projects. Interpreting and analyzing data to drive buisness growth
+                </p>
+            </div>
+            
+        </div>
+    </section>
 
-
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you need maximum productivity and you need to meet deadlines!</h3>
-        <p>Let's discuss coding solutions; frontend,backend over capuccino! this weekend!</p>
+    <section id="contact">
+        <h1 class="heading">CONTACT</h1>
+        <div class="contact-me">
+          <h3>If you need maximum productivity and you need to meet deadlines!</h3>
+          <p>Let's discuss coding solutions; frontend, backend over capuccino! this weekend!</p>
+        </div>
         <a class="BUTTON_WGN" href="mailto:afezupere@gmail.com">CONTACT ME</a>
       </div>
-      <a class="BUTTON_WGN resumebtn" href="https://drive.google.com/file/d/1BiR1E7Ze-4A80fj-FGtTeOCvP9UFEIce/view?usp=sharing" target="_blank" download>VIEW RESUME</a>
+      <a class="BUTTON_WGN" href="https://drive.google.com/file/d/1BiR1E7Ze-4A80fj-FGtTeOCvP9UFEIce/view?usp=sharing" target="_blank" download>VIEW RESUME</a>
     </div>
-
-    
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/pereafezu/" target="_blank">
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        LinkedIn</a>
-      <a class="footer-link" href="https://wa.me/2347053404617">
-        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        WhatsApp</a>
-      <a class="footer-link" href="https://twitter.com/highzaak" target="_blank">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        Twitter</a>
-      <a class="footer-link" href="https://github.com/NerdyDreams" target="_blank">
-        <i class="fa fa-github" aria-hidden="true"></i>
-        GitHub</a>
-      <a class="footer-link" href="https://www.instagram.com/codes_of_a_physicist" target="_blank">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        Instagram</a>
-      <p class="bottom-copywright">© 2022 Pere Afezu.</p>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
-  <!-- </div>
-</div> -->
-</body>
-
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/pereafezu/" target="_blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            <a class="footer-link" href="https://wa.me/2347053404617">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              </a>
+            <a class="footer-link" href="https://twitter.com/highzaak" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a class="footer-link" href="https://github.com/NerdyDreams" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a class="footer-link" href="https://www.instagram.com/codes_of_a_physicist" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+          </div>
+          <p class="copywright">© 2022 Pere Afezu.</p>
+    </section>
+  </body>
 </html>
